@@ -71,32 +71,33 @@ get_header();
         <div class="album py-5 bg-light">
             <div class="container">
             	<div class="row">
+            		<?php if ( have_posts() ):  while ( have_posts() ): the_post(); ?>
             		<div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="<?php echo get_theme_file_uri( 'assets/img/create_1.jpg'); ?>">
-                <div class="card-body">
-                  <h5 class="card-title">蓝猫</h5>
-                  <p class="card-text">2D平面蓝猫图案</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">下载</button>
-                    </div>
-                    <small class="text-muted">下载量: 99</small>
-                  </div>
-                </div>
-              </div>
+              			<div class="card mb-4 shadow-sm">
+                			
+						<?php 
+							if ( has_post_thumbnail() ) { 
+								the_post_thumbnail();
+							} 
+						?>
+
+                			<div class="card-body">
+                  				<h5 class="card-title"><?php the_title(); ?></h5>
+                  				<p class="card-text">2D平面蓝猫图案</p>
+                  				<div class="d-flex justify-content-between align-items-center">
+                    				<div class="btn-group">
+                      					<button type="button" class="btn btn-sm btn-outline-secondary">查看</button>
+                      					<button type="button" class="btn btn-sm btn-outline-secondary">下载</button>
+                    				</div>
+                    				<small class="text-muted">下载量: 99</small>
+                  				</div>
+                			</div>
+              			</div>
             		</div>
-<?php 
-if ( have_posts() ) : 
-    while ( have_posts() ) : the_post(); 
-        the_title( '<h1>', '</h1>' ); 
-        the_content();
-    endwhile; 
-else: 
-    _e( 'Sorry, no pages matched your criteria.', 'textdomain' ); 
-endif; 
-?>
+            		<?php  endwhile; else: ?>
+						<p><?php _e( 'Sorry, no pages matched your criteria.', 'textdomain' );  endif;  ?></p>
+            		
+
             		<!--
 		            <div class="col-md-4">
 		              <div class="card mb-4 shadow-sm">
@@ -226,11 +227,10 @@ endif;
            		</div>
             </div>
         </div>
-
     </main>
 
 
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
