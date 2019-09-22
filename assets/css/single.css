@@ -3615,30 +3615,6 @@ _:future,
     }
 }
 
-@font-face {
-    font-family: lato;
-    src: url(/assets/Lato-Bold-a00768dadf404134a4e0c5089c845d099cf2f40f08d7e4e487f821a30f172d09.eot);
-    src: url(/assets/Lato-Bold-a00768dadf404134a4e0c5089c845d099cf2f40f08d7e4e487f821a30f172d09.eot?#iefix) format("embedded-opentype"), url(/assets/Lato-Bold-32b57e5fddca0ad896f6ad60564647991e766f43286e6fa2795d154928dec480.woff) format("woff"), url(/assets/Lato-Bold-34c20881a242044a24a53c082a0041c9c07521698a99f257e5d5999ef9ef730e.ttf) format("truetype"), url(/assets/Lato-Bold-d6c8485b66c3f91afbe01ac2ace32b6cbdaefd3456e1bbad20eda7db6a44c1c2.svg#eea591db52cf6ebc8992abb7621b9256) format("svg");
-    font-style: normal;
-    font-weight: 700
-}
-
-@font-face {
-    font-family: lato;
-    src: url(/assets/Lato-Light-6ce00d542e1f6e0aa018580b66a9c3936db321524efc672f986d49c2ef983f51.eot);
-    src: url(/assets/Lato-Light-6ce00d542e1f6e0aa018580b66a9c3936db321524efc672f986d49c2ef983f51.eot?#iefix) format("embedded-opentype"), url(/assets/Lato-Light-f11f917c74a1e388394df5f9038ea209a9fa659d2e11f95c250696687c9fc6cc.woff) format("woff"), url(/assets/Lato-Light-d6c4f569377a52402ab7892a0262ff2bced4a9df6def8bdf1833529e86cad779.ttf) format("truetype"), url(/assets/Lato-Light-3de42c5a2ba0633e65ddc90b89a3dc4a9a29cbb713b76de84f31d6e9ee1e4041.svg#80d8021909d835b751af094d043ad177) format("svg");
-    font-style: normal;
-    font-weight: 200
-}
-
-@font-face {
-    font-family: lato;
-    src: url(/assets/Lato-Regular-def4227fc5c48eebbaed89f6c219e1d5b1d1988afbae685960b75790debcb79b.eot);
-    src: url(/assets/Lato-Regular-def4227fc5c48eebbaed89f6c219e1d5b1d1988afbae685960b75790debcb79b.eot?#iefix) format("embedded-opentype"), url(/assets/Lato-Regular-33a5c42b1dcb60bd5fdd85a6bdb8f1ae7e5ccb27dcf1f78784075ef699a1331a.woff) format("woff"), url(/assets/Lato-Regular-1e65b216f1d4f97a43f2b8ac0c355d1fbc65f3471c7129e0f204f20be0834ab3.ttf) format("truetype"), url(/assets/Lato-Regular-6f13b8fead65993bee5d76d63958ac0792a983ee657c0c4df983fa739120aca8.svg#48e70b8825d557df57af3e4f7d4c31be) format("svg");
-    font-style: normal;
-    font-weight: 400
-}
-
 #comments {
     margin-bottom: 2em
 }
@@ -4305,11 +4281,11 @@ _:future,
 }
 
 footer {
-    background-color: #323a45;
+    /*background-color: #323a45;*/
     width: 100%;
     position: relative;
     z-index: 1;
-    opacity: .0001;
+    /*opacity: .0001;*/
     -webkit-transition: .25s ease opacity;
     transition: .25s ease opacity
 }
@@ -5260,12 +5236,12 @@ body.prints-controller.show-action .design-management-buttons .editor-buttons a[
 [disabled].button-google-plus {
     opacity: .5
 }
-
+/*
 input[type=submit],
 button {
     display: inline-block !important
 }
-
+*/
 .button,
 a.button {
     line-height: 1 !important;

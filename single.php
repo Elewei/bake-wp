@@ -23,8 +23,8 @@ get_header();
 								<div
 									class="column-4-hand column-2-lap align-center avatar-column avatar-hide-on-mobile">
 									<a class="small avatar designer-avatar"
-										href="https://pinshape.com/users/132546-guaro3d">
-										<img alt="guaro3D's avatar" data-tooltip=""
+										href="#">
+										<img alt="guaro3D's avatar" 
 											src="<?php echo get_theme_file_uri( 'assets/img/avator.jpg'); ?>"
 											title="View guaro3D's profile">
 									</a>
@@ -33,7 +33,7 @@ get_header();
 									<div class="row space-bottom middle-hand">
 										<div class="column-12-hand column-10-lap name-and-rating middle-hand">
 											<h1 id="design-name" itemprop="name">
-												Cessna Citation
+												巧克力模型
 											</h1>
 										</div>
 										<div class="column-12-hand column-2-lap design-rating space-top-hand"
@@ -56,7 +56,7 @@ get_header();
 											<meta content="guaro3D" itemprop="name">
 											<div class="designed-by">
 												Designed by &nbsp;
-												<a href="https://pinshape.com/users/132546-guaro3d">guaro3D</a>
+												<a href="#">guaro3D</a>
 												<div class="user-badges-component">
 													<div class="app-badge-wrapper has-tooltip"
 														title="Design Ambassador">
@@ -66,24 +66,22 @@ get_header();
 										</div>
 										<div class="column-12-hand column-7-lap">
 											<div class="design-social-info end-lap">
-												<a class="like not-liked space-right" data-id="34245"
-													data-type="item" data-reverse="like" data-track="item:like"
-													data-track-data="{&quot;item_id&quot;:34245}">
-													<i class="picon icon-like like-icon">
+												<a class="like not-liked space-right">
+													<i class="fas fa-heart">
 														<span class="heart-animation-1"></span>
 														<span class="heart-animation-2"></span>
 													</i>
 													<span class="like-label">
-														Like
+														喜欢
 													</span>
 													<span class="number-of-likes">
 														43
 													</span>
 												</a>
-												<a data-id="" class="repin space-right " href="javascript:void(0);">
-													<i class="picon icon-collection"></i>
+												<a data-id="" class="repin space-right " href="#">
+													<i class="fas fa-star"></i>
 													<span class="repin-label">
-														Collect
+														收藏
 													</span>
 													<span class="repin-count">
 														21
@@ -91,7 +89,7 @@ get_header();
 												</a>
 												<a>
 													<span class="views">
-														<i class="picon icon-eye"></i>
+														<i class="fas fa-eye"></i>
 														<span class="views-label">
 															Views
 														</span>
@@ -107,7 +105,7 @@ get_header();
 							</div>
 						</div>
 					</div>
-					<!--
+					
 					<div class="row">
 						<div class="column-12-hand middle-hand">
 							<div class="owl-container">
@@ -118,13 +116,11 @@ get_header();
 											style="width: 16737px; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
 											<div class="owl-item active center"
 												style="width: 797px; margin-right: 0px;">
-												<div class="article-image" data-dot="">
+												<div class="article-image">
 													<img alt="Cessna Citation SII Scale Model 3D Print 139144"
 														title="Cessna Citation SII Scale Model 3D Print 139144"
-														class="image-responsive" itemprop="image"
-														data-thumbnail-position="0" data-thumbnail-type="image"
-														data-upload-type="design" data-thumbnail-count="21"
-														src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/container_cessna-citation-sii-scale-model-3d-printing-139144.jpg">
+														class="image-responsive" 
+														src="<?php echo get_theme_file_uri( 'assets/img/container_cessna-citation-sii-scale-model-3d-printing-139144.jpg'); ?>">
 												</div>
 											</div>
 											<div class="owl-item" style="width: 797px; margin-right: 0px;">
@@ -134,7 +130,7 @@ get_header();
 														class="image-responsive" itemprop="image"
 														data-thumbnail-position="1" data-thumbnail-type="image"
 														data-upload-type="design" data-thumbnail-count="21"
-														src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/container_cessna-citation-sii-scale-model-3d-printing-139137.jpg">
+														src="<?php echo get_theme_file_uri( 'assets/img/container_cessna-citation-sii-scale-model-3d-printing-139137.jpg'); ?>">
 												</div>
 											</div>
 											<div class="owl-item" style="width: 797px; margin-right: 0px;">
@@ -196,6 +192,7 @@ get_header();
 														class="image-responsive" itemprop="image"
 														data-thumbnail-position="7" data-thumbnail-type="image"
 														data-upload-type="design" data-thumbnail-count="21"
+
 														src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/container_cessna-citation-sii-scale-model-3d-printing-139143.jpg">
 												</div>
 											</div>
@@ -277,18 +274,6 @@ get_header();
 											</div>
 											<div class="owl-item" style="width: 797px; margin-right: 0px;">
 												<div class="article-image"
-													data-dot="&lt;img src='//assets.pinshape.com/uploads/shape_file/thumbnail/971723/Ala_Izquierda.jpg' alt='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971723' title='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971723'&gt;">
-													<div class="scene"
-														data-scene-id="1a7ddc79-2ec7-4465-9219-ca151f0cbf01"
-														data-thumbnail-count="21" data-thumbnail-position="15"
-														data-thumbnail-type="render" data-upload-type="design"
-														style="height: 100%;">
-
-													</div>
-												</div>
-											</div>
-											<div class="owl-item" style="width: 797px; margin-right: 0px;">
-												<div class="article-image"
 													data-dot="&lt;img src='//assets.pinshape.com/uploads/shape_file/thumbnail/971725/Ala_Derecha.jpg' alt='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971725' title='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971725'&gt;">
 													<div class="scene"
 														data-scene-id="f7329342-7ba8-41f4-b2ac-d33cdb80037b"
@@ -301,33 +286,10 @@ get_header();
 											</div>
 											<div class="owl-item" style="width: 797px; margin-right: 0px;">
 												<div class="article-image"
-													data-dot="&lt;img src='//assets.pinshape.com/uploads/shape_file/thumbnail/971726/Estabilizador_Horizontal_Izq.jpg' alt='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971726' title='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971726'&gt;">
-													<div class="scene"
-														data-scene-id="6a92e429-8976-4d94-9ea6-7697ccc0e1eb"
-														data-thumbnail-count="21" data-thumbnail-position="17"
-														data-thumbnail-type="render" data-upload-type="design"
-														style="height: 100%;">
-
-													</div>
-												</div>
-											</div>
-											<div class="owl-item" style="width: 797px; margin-right: 0px;">
-												<div class="article-image"
 													data-dot="&lt;img src='//assets.pinshape.com/uploads/shape_file/thumbnail/971728/Base.jpg' alt='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971728' title='Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971728'&gt;">
 													<div class="scene"
 														data-scene-id="57e70d56-3984-4cb8-b982-a25f79d22651"
 														data-thumbnail-count="21" data-thumbnail-position="18"
-														data-thumbnail-type="render" data-upload-type="design"
-														style="height: 100%;">
-
-													</div>
-												</div>
-											</div>
-											<div class="owl-item" style="width: 797px; margin-right: 0px;">
-												<div class="article-image" data-dot="">
-													<div class="scene"
-														data-scene-id="f020f149-930a-4aee-87a0-092f14aca39a"
-														data-thumbnail-count="21" data-thumbnail-position="19"
 														data-thumbnail-type="render" data-upload-type="design"
 														style="height: 100%;">
 
@@ -359,101 +321,6 @@ get_header();
 													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139137"
 													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139137">
 											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-_006.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139138"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139138">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-_002.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139139"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139139">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-_004.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139140"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139140">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-_008.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139141"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139141">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-prin.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139142"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139142">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-_005.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139143"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139143">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/horizontal_thumbnail_cessna-citation-sii-scale-model-3d-_003.jpg"
-													alt="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139145"
-													title="Horizontal thumbnail Cessna Citation SII Scale Model 3D Print 139145">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Union_Alas_MIR.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971731"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971731">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Estabilizador_Horizontal_Der.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971727"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971727">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Estabilizador_Vertical.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971724"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971724">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Union_estabilizador_vertical.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971720"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971720">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Union_1.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971721"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971721">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Fuselaje_2.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971722"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971722">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Ala_Izquierda.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971723"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971723">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Ala_Derecha.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971725"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971725">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Estabilizador_Horizontal_Izq.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971726"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971726">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Base.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971728"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971728">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Fuselaje_1.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971729"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971729">
-											</div>
-											<div class="owl-dot">
-												<img src="3D%20Printed%20Cessna%20Citation%20SII%20Scale%20Model%20by%20guaro3D%20|%20Pinshape_files/Union_Alas.jpg"
-													alt="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971730"
-													title="Shape thumbnail Cessna Citation SII Scale Model 3D Printing 971730">
-											</div>
 										</div>
 									</div>
 								</div>
@@ -468,6 +335,7 @@ get_header();
 							</div>
 						</div>
 					</div>
+					<!--
 					<div class="row prints underlined-header middle-hand">
 						<div class="column-6-hand">
 							<h4>
