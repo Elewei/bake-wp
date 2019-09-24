@@ -13,17 +13,17 @@
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title text-center">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
+			<div class="entry-meta text-right">
 				<?php
-				bake_posted_on();
-				bake_posted_by();
+					bake_posted_on();
+					bake_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -31,7 +31,7 @@
 
 	<?php bake_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content text-justify">
 		<?php
 		the_content( sprintf(
 			wp_kses(
